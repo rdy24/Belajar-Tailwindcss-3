@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="dark:bg-black dark:text-white">
     <h1
       class="text-8xl font-bold text-center my-10 bg-gradient-to-tr from-blue-500 via-yellow-400 to-red-600 bg-clip-text text-transparent"
     >
@@ -94,11 +94,169 @@
       class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-500 overflow-hidden border-8 flex"
       style="background-image: url('src/img/1.jpg')"
     >
-      <div class="backdrop-blur-sm w-[200px] h-[200px] bg-white/30 m-auto">
-        <!-- ... -->
+      <div
+        class="backdrop-blur-sm w-[200px] h-[200px] bg-white/30 m-auto"
+      ></div>
+    </div>
+
+    <hr class="my-20" />
+
+    <div class="flex justify-center">
+      <span class="text-sm text-slate-500 dark:text-white mr-2">Light</span>
+      <input type="checkbox" name="toogle" id="toogle" class="hidden" />
+      <label for="toogle">
+        <div
+          class="w-9 h-5 bg-slate-500 rounded-full flex items-center cursor-pointer"
+        >
+          <div class="w-4 h-4 bg-white rounded-full toogle-circle"></div>
+        </div>
+      </label>
+      <span class="text-sm text-slate-500 dark:text-white ml-2">Dark</span>
+    </div>
+
+    <div
+      class="max-w-lg my-10 border border-slate-300 rounded-xl mx-auto p-6 shadow-lg hover:bg-sky-400 group font-serif"
+    >
+      <h5 class="font-bold text-slate-600 text-lg mb-4 group-hover:text-white">
+        My card
+      </h5>
+      <p
+        class="text-slate-400 group-hover:text-white first-letter:text-7xl first-letter:float-left first-letter:mr-4"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae nobis
+        necessitatibus quod labore illo dolorem quae fugit? Modi ab alias aut
+        officiis ipsum aliquid odio error facilis eos doloremque quos hic nulla
+        omnis nihil possimus, architecto reprehenderit in commodi non a
+        excepturi porro laudantium. Sit magnam illum rem qui.
+      </p>
+    </div>
+    <div
+      class="max-w-lg my-10 border border-slate-300 rounded-xl mx-auto p-6 shadow-lg font-inter"
+    >
+      <label for="email" class="block">
+        <span
+          class="block font-semibold mb-1 text-slate-600 after:content-[*] after:text-pink-500 after:ml-0.5"
+          >Email</span
+        >
+        <input
+          type="email"
+          id="email"
+          placeholder="masukan email"
+          class="px-3 py-2 border shadow rounded-sm w-full block text-sm placeholder:text-slate-300 focus:outline-none"
+        />
+      </label>
+    </div>
+
+    <button
+      class="my-10 bg-blue-400 hover:bg-sky-700 px-4 py-2 rounded-md text-white font-inter font-semibold mx-auto block"
+    >
+      Simpan
+    </button>
+
+    <hr class="my-20" />
+
+    <div
+      class="w-40 h-40 bg-sky-500 mx-auto rounded-xl shadow-lg hover:rotate-45 hover:translate-x-11 transition origin-bottom-left"
+    ></div>
+
+    <div class="w-40 h-40 mx-auto mt-32 group">
+      <div
+        class="w-full h-full bg-blue-500 rounded-lg shadow-lg group-hover:rotate-180 origin-bottom-left transition"
+      ></div>
+    </div>
+
+    <div
+      class="w-40 h-40 bg-orange-400 mx-auto rounded-xl mt-20 animate-goyang"
+    ></div>
+
+    <hr class="my-20 border-t-4" />
+
+    <div class="container px-8 mx-auto">
+      <div class="border rounded-lg shadow-xl p-10 relative">
+        <div
+          class="w-10 h-10 bg-slate-200 rounded-full flex fixed bottom-5 right-5 cursor-pointer"
+        >
+          <a href="#" class="text-xl m-auto">^</a>
+        </div>
+        <img
+          src="src/img/1.jpg"
+          alt="Laptop"
+          width="150"
+          class="float-left mr-4"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+          recusandae eos. Alias aut accusantium quisquam accusamus ex dolorem
+          aliquid repellat sit repudiandae eaque, cum doloremque veniam id
+          quidem corporis architecto cupiditate itaque suscipit ipsam vitae
+          nihil laudantium! Temporibus et molestiae perspiciatis, delectus
+          laboriosam repellat minima laudantium at id, a nesciunt pariatur porro
+          necessitatibus. Doloribus blanditiis aperiam dignissimos, dolore cum
+          id veritatis quibusdam veniam nihil repellat animi vel nesciunt
+          reprehenderit in nam iste. Sequi fuga corrupti illum. Nesciunt
+          recusandae cupiditate porro dicta excepturi voluptas pariatur
+          perspiciatis rerum cumque, corporis odit sunt voluptatem distinctio
+          doloribus, architecto dolorum eaque consequuntur necessitatibus
+          officia labore.
+        </p>
       </div>
     </div>
 
+    <div
+      class="container mx-auto border rounded-lg shadow-lg p-10 mt-32 columns-4"
+    >
+      <img
+        src="https://source.unsplash.com/600x400?programming"
+        alt="Image"
+        class="mb-4"
+      />
+      <img
+        src="https://source.unsplash.com/600x400?programming"
+        alt="Image"
+        class="mb-4"
+      />
+      <img
+        src="https://source.unsplash.com/600x400?programming"
+        alt="Image"
+        class="mb-4"
+      />
+      <img
+        src="https://source.unsplash.com/600x400?programming"
+        alt="Image"
+        class="mb-4"
+      />
+      <img
+        src="https://source.unsplash.com/600x400?programming"
+        alt="Image"
+        class="mb-4"
+      />
+      <img
+        src="https://source.unsplash.com/600x400?programming"
+        alt="Image"
+        class="mb-4"
+      />
+      <img
+        src="https://source.unsplash.com/600x400?programming"
+        alt="Image"
+        class="mb-4"
+      />
+      <img
+        src="https://source.unsplash.com/600x400?programming"
+        alt="Image"
+        class="mb-4"
+      />
+    </div>
+
     <div class="mb-96"></div>
+    <script>
+      const toogle = document.querySelector("#toogle");
+      const html = document.querySelector("html");
+
+      toogle.addEventListener("click", () => {
+        toogle.checked
+          ? html.classList.add("dark")
+          : html.classList.remove("dark");
+      });
+    </script>
   </body>
 </html>

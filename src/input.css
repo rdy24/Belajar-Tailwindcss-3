@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#toogle:checked ~ label div.toogle-circle {
+  @apply translate-x-5;
+}
